@@ -47,7 +47,7 @@ export default class Navbar extends React.Component{
                         </ul>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" onChange={this.handleChangeSearch} value={searchText}/>
-                            <button class="btn btn-outline mb1 black" type="button" onClick={this.onClickSearch}>Buscars</button>
+                            <button class="btn btn-outline mb1 black" type="button" onClick={this.onClickSearch}>Buscar</button>
                         </form>
                     </div>
                 </div>
