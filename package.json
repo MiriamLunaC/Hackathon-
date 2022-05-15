@@ -12,12 +12,15 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://miriamlunac.github.io/Hackathon-",
   "scripts": {
     "start": "react-scripts start",
-    "build": "webpack --mode production",
+    "build": "react-scripts build",
     "dev": "webpack serve --mode development --devtool inline-source-map --hot",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build -r https://$HACKATHON_SECRET@github.com/miriamlunac.github.io/Hackathon-"
   },
   "eslintConfig": {
     "extends": [
