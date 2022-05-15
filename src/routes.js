@@ -8,7 +8,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/Hackathon-',
+    path: '/Hackathon-/',
     exact: true,
     component: Home
   },
